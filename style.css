@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f8fb;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+.form-container {
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 320px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background: #4CAF50;
+  color: white;
+}
+
+td button {
+  margin: 2px;
+  padding: 5px 8px;
+  font-size: 0.9em;
+}
+
+.delete {
+  background: #e74c3c;
+}
+
+.edit {
+  background: #3498db;
+}
